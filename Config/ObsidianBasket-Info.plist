@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>INAlternativeAppNames</key>
+    <array>
+        <dict>
+            <key>INAlternativeAppName</key>
+            <string>Obsidian Basket</string>
+        </dict>
+        <dict>
+            <key>INAlternativeAppName</key>
+            <string>Shopping Basket</string>
+        </dict>
+        <dict>
+            <key>INAlternativeAppName</key>
+            <string>Shopping List</string>
+        </dict>
+    </array>
+</dict>
+</plist>

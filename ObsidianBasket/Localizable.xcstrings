@@ -1,0 +1,2002 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "": {
+      "shouldTranslate": false
+    },
+    "%@": {
+      "shouldTranslate": false,
+      "comment": "Passes through an error message that has already been localized."
+    },
+    "Add ${item} to the basket": {
+      "comment": "Shortcuts action summary. Preserve ${item}, which represents the Items parameter.",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add ${item} to the basket"
+          }
+        }
+      }
+    },
+    "addItem": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Item"
+          }
+        }
+      }
+    },
+    "addItemBelow": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add an item below."
+          }
+        }
+      }
+    },
+    "addItemPlaceholder": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add an item"
+          }
+        }
+      }
+    },
+    "addToBasket": {
+      "comment": "Siri and Shortcuts text. Basket and Obsidian Basket are app names. Item names are supplied by the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add to Basket"
+          }
+        }
+      }
+    },
+    "basketTitle": {
+      "comment": "Main shopping list navigation title. Basket is the app display name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basket"
+          }
+        }
+      }
+    },
+    "cancel": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "caseSensitivePaths": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Case-sensitive paths"
+          }
+        }
+      }
+    },
+    "chunkConflict": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The note could not be saved because its stored data conflicts. Check the note in Obsidian, then try again.\n\nContent chunk %@ already contains different data."
+          }
+        }
+      }
+    },
+    "chunkDecompressionFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Part of this note could not be read. Check the note in Obsidian, then refresh.\n\nA compressed content chunk could not be decoded or exceeds the 16 MB limit."
+          }
+        }
+      }
+    },
+    "chunkEncrypted": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The note contains encrypted content. Ensure end-to-end encryption is off in Obsidian's Self-hosted LiveSync settings.\n\nContent chunk %@ is encrypted."
+          }
+        }
+      }
+    },
+    "clearLocalWarning": {
+      "comment": "Settings or conflict resolution explanation shown to the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This will clear the basket on this device."
+          }
+        }
+      }
+    },
+    "completed": {
+      "comment": "Accessibility value for a checked basket item.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completed"
+          }
+        }
+      }
+    },
+    "conflictingNoteSections": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The note's sections changed in both versions. Merge the changes in Obsidian, or choose a version to keep."
+          }
+        }
+      }
+    },
+    "conflictingNoteText": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text outside the basket items has conflicting changes. Merge the changes in Obsidian, or choose a version to keep."
+          }
+        }
+      }
+    },
+    "connectedNoteFound": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected. Note found."
+          }
+        }
+      }
+    },
+    "connectedNoteMissing": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connected. No note found at this path. Check Note path before adding items."
+          }
+        }
+      }
+    },
+    "connectionFailedAnnouncement": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connection failed."
+          }
+        }
+      }
+    },
+    "connectionFailedTitle": {
+      "comment": "Alert title describing an operation that failed.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connection Failed"
+          }
+        }
+      }
+    },
+    "connectVault": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connect your vault"
+          }
+        }
+      }
+    },
+    "couchDB": {
+      "comment": "Connection settings section heading. CouchDB is a product name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CouchDB"
+          }
+        }
+      }
+    },
+    "couldNotAccessPassword": {
+      "comment": "Alert title describing an operation that failed.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Access Saved Password"
+          }
+        }
+      }
+    },
+    "couldNotAddItem": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Add Item"
+          }
+        }
+      }
+    },
+    "couldNotLoadSettings": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Load Settings"
+          }
+        }
+      }
+    },
+    "couldNotMoveItem": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Move Item"
+          }
+        }
+      }
+    },
+    "couldNotOpenBasket": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Open Basket"
+          }
+        }
+      }
+    },
+    "couldNotOpenShortcuts": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Open Shortcuts"
+          }
+        }
+      }
+    },
+    "couldNotRenameItem": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Rename Item"
+          }
+        }
+      }
+    },
+    "couldNotResetSettings": {
+      "comment": "Alert title describing an operation that failed.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Reset Settings"
+          }
+        }
+      }
+    },
+    "couldNotResolveConflict": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Resolve Conflict"
+          }
+        }
+      }
+    },
+    "couldNotSaveBasket": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Save Basket"
+          }
+        }
+      }
+    },
+    "couldNotSaveSettings": {
+      "comment": "Alert title describing an operation that failed.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Save Settings"
+          }
+        }
+      }
+    },
+    "couldNotSyncBasket": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could Not Sync Basket"
+          }
+        }
+      }
+    },
+    "database": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Database"
+          }
+        }
+      }
+    },
+    "databaseAllowedCharacters": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The database name can contain only lowercase letters (a-z), numbers, and _, $, (, ), +, -, or /."
+          }
+        }
+      }
+    },
+    "databaseEncodingFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The database name could not be encoded in the server address. Check Database in Settings."
+          }
+        }
+      }
+    },
+    "databaseInitialLetter": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The database name must start with a lowercase letter (a-z)."
+          }
+        }
+      }
+    },
+    "databaseLocked": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "LiveSync has locked this database. Unlock it in Obsidian before saving from this app."
+          }
+        }
+      }
+    },
+    "databaseNotFound": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The database %@ was not found. Check Database in Settings.\n\nHTTP 404."
+          }
+        }
+      }
+    },
+    "databaseRequired": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter the CouchDB database name."
+          }
+        }
+      }
+    },
+    "delete": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "deleteItemsUndo": {
+      "comment": "Undo menu action name for deleting basket items. The count selects the grammatical plural form and is not shown.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%#@count@"
+          },
+          "substitutions": {
+            "count": {
+              "argNum": 1,
+              "formatSpecifier": "lld",
+              "variations": {
+                "plural": {
+                  "one": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "Delete Item"
+                    }
+                  },
+                  "other": {
+                    "stringUnit": {
+                      "state": "translated",
+                      "value": "Delete Items"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "deleteNamedItem": {
+      "comment": "Delete button help and accessibility label. The placeholder is the item name entered by the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete %@"
+          }
+        }
+      }
+    },
+    "discardChanges": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Discard Changes"
+          }
+        }
+      }
+    },
+    "duplicateItem": {
+      "comment": "Accessibility announcement when an item already exists in the basket.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This item is already in your basket."
+          }
+        }
+      }
+    },
+    "duplicateItemReopened": {
+      "comment": "Accessibility announcement when adding an existing completed item unchecks it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This item is already in your basket. Marked as not completed."
+          }
+        }
+      }
+    },
+    "emptyBasket": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your basket is empty"
+          }
+        }
+      }
+    },
+    "emptyNote": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empty note"
+          }
+        }
+      }
+    },
+    "encryptedVaultUnsupported": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encrypted vaults are not supported. Connect to an unencrypted LiveSync database."
+          }
+        }
+      }
+    },
+    "hidePassword": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hide Password"
+          }
+        }
+      }
+    },
+    "httpBadRequest": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server could not process the request. Check your connection settings."
+          }
+        }
+      }
+    },
+    "httpConflict": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The note changed while saving. Refresh to check both versions."
+          }
+        }
+      }
+    },
+    "httpErrorDetails": {
+      "comment": "Error message followed by the HTTP status code. Preserve HTTP and the code.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@\n\nHTTP %lld."
+          }
+        }
+      }
+    },
+    "httpForbidden": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server refused access. Check this account's database permissions or try again later."
+          }
+        }
+      }
+    },
+    "httpMethodNotAllowed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server does not support this request. Ensure Server URL points to CouchDB."
+          }
+        }
+      }
+    },
+    "httpNotFound": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The database or note was not found. Check Database and Note path in Settings."
+          }
+        }
+      }
+    },
+    "httpPayloadTooLarge": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The request exceeds the server's size limit. Check the limit in your server settings."
+          }
+        }
+      }
+    },
+    "httpRequestFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The request could not be completed. Check your connection settings and try again."
+          }
+        }
+      }
+    },
+    "httpServerError": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server could not complete the request. Try again later or check the server."
+          }
+        }
+      }
+    },
+    "httpsRequired": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use an HTTPS server address, such as https://example.com."
+          }
+        }
+      }
+    },
+    "httpTimeout": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server took too long to respond. Check your connection and try again."
+          }
+        }
+      }
+    },
+    "httpTooManyRequests": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server received too many requests. Wait a moment and try again."
+          }
+        }
+      }
+    },
+    "httpUnauthorized": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Authentication failed. Check your username and password in Settings."
+          }
+        }
+      }
+    },
+    "httpUnsupportedFormat": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server does not support this data format. Ensure Server URL points to CouchDB."
+          }
+        }
+      }
+    },
+    "intentAddFailed": {
+      "comment": "Siri and Shortcuts text. Basket and Obsidian Basket are app names. Item names are supplied by the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not add %@. Open Obsidian Basket to try again."
+          }
+        }
+      }
+    },
+    "intentConflictResolutionRequired": {
+      "comment": "Siri and Shortcuts text. Basket and Obsidian Basket are app names. Item names are supplied by the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Obsidian Basket to resolve the sync conflict before adding items."
+          }
+        }
+      }
+    },
+    "intentItemsAdded": {
+      "comment": "Siri and Shortcuts text. Basket and Obsidian Basket are app names. Item names are supplied by the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Added %@ to Basket."
+          }
+        }
+      }
+    },
+    "intentSavedPendingSync": {
+      "comment": "Siri and Shortcuts text. Basket and Obsidian Basket are app names. Item names are supplied by the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved %@ on this device. Open Obsidian Basket to finish syncing."
+          }
+        }
+      }
+    },
+    "intentSavedWithConflict": {
+      "comment": "Siri and Shortcuts text. Basket and Obsidian Basket are app names. Item names are supplied by the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved %@ on this device. Open Obsidian Basket to resolve the sync conflict."
+          }
+        }
+      }
+    },
+    "intentSavedWithSyncError": {
+      "comment": "Siri and Shortcuts text. Basket and Obsidian Basket are app names. Item names are supplied by the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Saved %@ on this device. Open Obsidian Basket to review the sync error and try again."
+          }
+        }
+      }
+    },
+    "intentSetupRequired": {
+      "comment": "Siri and Shortcuts text. Basket and Obsidian Basket are app names. Item names are supplied by the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Obsidian Basket and set up your connection in Settings."
+          }
+        }
+      }
+    },
+    "invalidChunkBase64": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Part of this note could not be read. Check the note in Obsidian, then refresh.\n\nA compressed content chunk contains invalid Base64 data."
+          }
+        }
+      }
+    },
+    "invalidChunkUTF8": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Part of this note could not be read. Check the note in Obsidian, then refresh.\n\nA decoded content chunk is not UTF-8 text."
+          }
+        }
+      }
+    },
+    "invalidDatabaseURL": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server address and database name could not form a valid address. Check Server URL and Database in Settings."
+          }
+        }
+      }
+    },
+    "invalidServerResponse": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server returned a response Basket could not read. Ensure Server URL points to CouchDB."
+          }
+        }
+      }
+    },
+    "invalidServerURL": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server URL could not be read. Use an HTTPS address such as https://example.com."
+          }
+        }
+      }
+    },
+    "itemChangedWhileEditing": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The basket changed. Try editing the item again."
+          }
+        }
+      }
+    },
+    "itemChangedWhileMoving": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The basket changed. Try moving the item again."
+          }
+        }
+      }
+    },
+    "itemName": {
+      "comment": "Editable basket item text field label, also used by accessibility.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Item name"
+          }
+        }
+      }
+    },
+    "itemNameRequired": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter an item name."
+          }
+        }
+      }
+    },
+    "itemsParameter": {
+      "comment": "Siri and Shortcuts text. Basket and Obsidian Basket are app names. Item names are supplied by the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Items"
+          }
+        }
+      }
+    },
+    "keepEditing": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep Editing"
+          }
+        }
+      }
+    },
+    "keepLocalCopy": {
+      "comment": "Conflict resolution choice that replaces the server note with this device's note.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep This Device's Copy"
+          }
+        }
+      }
+    },
+    "keychainReadFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not read the password from Keychain (%lld)."
+          }
+        }
+      }
+    },
+    "keychainRemoveFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not remove the password from Keychain (%lld)."
+          }
+        }
+      }
+    },
+    "keychainSaveFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not save the password in Keychain (%lld)."
+          }
+        }
+      }
+    },
+    "keychainUpdateFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not update the password in Keychain (%lld)."
+          }
+        }
+      }
+    },
+    "liveSyncSettingsHelp": {
+      "comment": "Footer under CouchDB connection fields. Self-hosted LiveSync and Obsidian are product names.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ensure end-to-end encryption and path obfuscation are off in Obsidian's Self-hosted LiveSync settings."
+          }
+        }
+      }
+    },
+    "liveUpdatesUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Live Updates Unavailable"
+          }
+        }
+      }
+    },
+    "loadingBasket": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading basket..."
+          }
+        }
+      }
+    },
+    "loadSettingsFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not load connection settings: %@"
+          }
+        }
+      }
+    },
+    "mergeChanges": {
+      "comment": "Conflict resolution choice that combines the local and server notes.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Merge Changes"
+          }
+        }
+      }
+    },
+    "missingChunkList": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This note uses a LiveSync format that Basket cannot read.\n\nThe note has no content chunk list."
+          }
+        }
+      }
+    },
+    "missingChunkText": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This note uses a LiveSync format that Basket cannot read.\n\nContent chunk %@ has no text data."
+          }
+        }
+      }
+    },
+    "missingServerNote": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No note on the server"
+          }
+        }
+      }
+    },
+    "moveDown": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move Down"
+          }
+        }
+      }
+    },
+    "moveUp": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move Up"
+          }
+        }
+      }
+    },
+    "moveWithinSameList": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Items can only be moved within the same list, at the same nesting level."
+          }
+        }
+      }
+    },
+    "newBasketItem": {
+      "comment": "Accessibility label for the field used to add a basket item.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New basket item"
+          }
+        }
+      }
+    },
+    "notCompleted": {
+      "comment": "Accessibility value for an unchecked basket item.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not completed"
+          }
+        }
+      }
+    },
+    "noteConflicts": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This note has conflicting versions on the server. Resolve them in Obsidian before syncing."
+          }
+        }
+      }
+    },
+    "noteDeleted": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This note has been deleted. Restore it in Obsidian or choose another note path."
+          }
+        }
+      }
+    },
+    "noteEncrypted": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This note is encrypted. Ensure end-to-end encryption is off in Obsidian's Self-hosted LiveSync settings."
+          }
+        }
+      }
+    },
+    "noteIncomplete": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Part of this note has not arrived yet. Let Obsidian finish syncing, then refresh."
+          }
+        }
+      }
+    },
+    "notePath": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Note path"
+          }
+        }
+      }
+    },
+    "notePathColons": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove colons (:) from Note path."
+          }
+        }
+      }
+    },
+    "notePathEmptySegments": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use a path inside your vault without leading, trailing, or repeated slashes, such as Notes/Basket.md."
+          }
+        }
+      }
+    },
+    "notePathExtension": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The note path must end in .md, such as Basket.md or Notes/Basket.md."
+          }
+        }
+      }
+    },
+    "notePathHelp": {
+      "comment": "Footer under note settings. Keep the example path Notes/Basket.md unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter the note's path inside your vault, such as Notes/Basket.md. Match LiveSync's filename case setting."
+          }
+        }
+      }
+    },
+    "notePathLineBreaks": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove line breaks from Note path."
+          }
+        }
+      }
+    },
+    "notePathMismatch": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The note path does not match. Check Note path and Case-sensitive paths in Settings. Ensure path obfuscation is off in Obsidian's Self-hosted LiveSync settings."
+          }
+        }
+      }
+    },
+    "notePathRelativeSegments": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove . and .. folder segments from Note path."
+          }
+        }
+      }
+    },
+    "notePathRequired": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter the note's path inside your vault, such as Basket.md or Notes/Basket.md."
+          }
+        }
+      }
+    },
+    "notePathSlashes": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use forward slashes (/) between folders in Note path."
+          }
+        }
+      }
+    },
+    "noteURLEncodingFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The note's server address could not be built. Check the connection and note settings.\n\nA note or content identifier could not be URL-encoded."
+          }
+        }
+      }
+    },
+    "obsidianNote": {
+      "comment": "Settings section heading for the note to sync. Obsidian is a product name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obsidian Note"
+          }
+        }
+      }
+    },
+    "ok": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "openSavedBasketFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not open the saved basket: %@"
+          }
+        }
+      }
+    },
+    "openSettings": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        }
+      }
+    },
+    "openShortcuts": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Shortcuts"
+          }
+        }
+      }
+    },
+    "password": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Password"
+          }
+        }
+      }
+    },
+    "refresh": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh"
+          }
+        }
+      }
+    },
+    "replaceLocalWarning": {
+      "comment": "Settings or conflict resolution explanation shown to the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This replaces the entire note on this device, including unsynced changes."
+          }
+        }
+      }
+    },
+    "replaceServerWarning": {
+      "comment": "Settings or conflict resolution explanation shown to the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This replaces the entire note on the server."
+          }
+        }
+      }
+    },
+    "requestBasketItems": {
+      "comment": "Siri prompt asking which items to add to the shopping basket.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What would you like to add?"
+          }
+        }
+      }
+    },
+    "resetSettings": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Settings"
+          }
+        }
+      }
+    },
+    "resetSettingsConfirmation": {
+      "comment": "Settings or conflict resolution explanation shown to the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove the saved connection and password?"
+          }
+        }
+      }
+    },
+    "resetSettingsHelp": {
+      "comment": "Settings or conflict resolution explanation shown to the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your notes will stay unchanged. This device's basket will be hidden until you reconnect with the same connection and note settings."
+          }
+        }
+      }
+    },
+    "resolution": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resolution"
+          }
+        }
+      }
+    },
+    "resolve": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resolve"
+          }
+        }
+      }
+    },
+    "resolveBeforeSettingsChange": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resolve the sync conflict before changing connection settings."
+          }
+        }
+      }
+    },
+    "resolveBeforeSettingsReset": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resolve the sync conflict before resetting settings."
+          }
+        }
+      }
+    },
+    "resolveConflict": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resolve Conflict"
+          }
+        }
+      }
+    },
+    "resolvingConflict": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resolving Conflict"
+          }
+        }
+      }
+    },
+    "save": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        }
+      }
+    },
+    "savedBasketOpenFailed": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The saved basket could not be opened. Try again."
+          }
+        }
+      }
+    },
+    "saveLocalBasketFailed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not save the basket on this device: %@"
+          }
+        }
+      }
+    },
+    "saveNotConfirmed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server did not confirm that the note was saved. Refresh to check the server copy."
+          }
+        }
+      }
+    },
+    "serverAddressRequired": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter a server address such as https://example.com."
+          }
+        }
+      }
+    },
+    "serverCopy": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server Copy"
+          }
+        }
+      }
+    },
+    "serverCopyChanged": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server copy changed again. Review the updated copy and try again."
+          }
+        }
+      }
+    },
+    "serverCredentialsNotAllowed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove the username and password from Server URL. Enter them in Username and Password."
+          }
+        }
+      }
+    },
+    "serverFragmentNotAllowed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove everything from # onward in Server URL."
+          }
+        }
+      }
+    },
+    "serverHostRequired": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter a server address with a valid host name, such as https://example.com."
+          }
+        }
+      }
+    },
+    "serverQueryNotAllowed": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove everything from ? onward in Server URL."
+          }
+        }
+      }
+    },
+    "serverURL": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Server URL"
+          }
+        }
+      }
+    },
+    "settingsTitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "showError": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Error"
+          }
+        }
+      }
+    },
+    "showFailureDetails": {
+      "comment": "Accessibility label for the connection error details button. The placeholder is the localized error title.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@. Show Details"
+          }
+        }
+      }
+    },
+    "showPassword": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Password"
+          }
+        }
+      }
+    },
+    "siri": {
+      "comment": "Shortcut settings section heading. Siri is an Apple product name.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siri"
+          }
+        }
+      }
+    },
+    "siriExample": {
+      "comment": "Example spoken Siri invocation. Keep the app name consistent with the localized App Shortcut phrase.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Say \"Hey Siri, add to Obsidian Basket\"."
+          }
+        }
+      }
+    },
+    "siriMacSetupHelp": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Shortcuts, create a shortcut with Obsidian Basket's \"Add to Basket\" action. Set \"Items\" to \"Ask Each Time\" and name it \"Add to Obsidian Basket\"."
+          }
+        }
+      }
+    },
+    "siriSetupHelp": {
+      "comment": "Settings or conflict resolution explanation shown to the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In Shortcuts, tap the info button for \"Basket\" and turn on \"Siri\"."
+          }
+        }
+      }
+    },
+    "syncedNoteMissing": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The previously synced note at %@ is missing from the server. Check your connection settings and note path, or restore the note in Obsidian."
+          }
+        }
+      }
+    },
+    "testConnection": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Test Connection"
+          }
+        }
+      }
+    },
+    "testingConnection": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testing connection"
+          }
+        }
+      }
+    },
+    "thisDevice": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This Device"
+          }
+        }
+      }
+    },
+    "tryAgain": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try Again"
+          }
+        }
+      }
+    },
+    "unfinishedNoteSection": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The note contains an unfinished code block, comment, or frontmatter section. Add its closing marker in Obsidian before adding items."
+          }
+        }
+      }
+    },
+    "unsavedChanges": {
+      "comment": "Settings or conflict resolution explanation shown to the user.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You have unsaved changes."
+          }
+        }
+      }
+    },
+    "unsupportedChunkType": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This note uses a LiveSync format that Basket cannot read.\n\nExpected content type leaf, received %@."
+          }
+        }
+      }
+    },
+    "unsupportedNoteType": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This note uses a LiveSync format that Basket cannot read.\n\nExpected note type plain, received %@."
+          }
+        }
+      }
+    },
+    "username": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Username"
+          }
+        }
+      }
+    },
+    "usernameRequired": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter a CouchDB username without colons or line breaks."
+          }
+        }
+      }
+    },
+    "useServerCopy": {
+      "comment": "Conflict resolution choice that replaces this device's note with the server note.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Server Copy"
+          }
+        }
+      }
+    },
+    "vaultSettingsUnavailable": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The vault's sync settings could not be verified. Open Obsidian and sync the vault before trying again."
+          }
+        }
+      }
+    },
+    "waitForSync": {
+      "comment": "Error or status shown to the user. Keep technical identifiers and example paths unchanged.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wait for the current sync to finish."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

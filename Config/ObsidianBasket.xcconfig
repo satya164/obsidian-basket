@@ -1,0 +1,6 @@
+PRODUCT_BUNDLE_IDENTIFIER = org.example.obsidian-basket
+INFOPLIST_FILE = Config/ObsidianBasket-Info.plist
+DEVELOPMENT_TEAM =
+
+// Keep personal signing values in this ignored file.
+#include? "Local.xcconfig"

@@ -1,0 +1,32 @@
+# Xcode user state and build output
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.build/
+*.xcarchive
+*.ipa
+*.dSYM/
+*.dSYM.zip
+*.xcresult/
+.DS_Store
+
+# Local signing settings and credentials
+Config/Local.xcconfig
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.p8
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+
+# Local editor and agent settings
+.idea/
+.vscode/
+.agents/
+.codex/
